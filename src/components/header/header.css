@@ -1,0 +1,36 @@
+.header{
+    /* position: fixed;
+    top: 35px;
+    left: 320px;
+    right: 45px; */
+    margin: 35px 45px 0px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(247, 227, 227); */
+    border-bottom: 1px solid lightgrey;
+    /* width: calc(100%-160px); */
+}
+
+.title{
+    color: #5e5b5b;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.title::first-letter{
+    text-transform: capitalize;
+}
+
+.user-data{
+    display: flex;
+    column-gap: 15px;
+    margin: auto 0px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+}

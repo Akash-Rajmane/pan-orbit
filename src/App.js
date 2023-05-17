@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import SideBar from './components/sidebar/SideBar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Profile from './pages/profile/Profile';
+import Posts from './pages/posts/Posts';
+import Gallery from './pages/gallery/Gallery';
+import Todo from "./pages/todo/Todo";
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div className='container'>
+          <aside>
+          <SideBar/>
+          </aside>
+          <section className='content'>
+            <Header/>
+            <main className='main-content'>
+            <Routes>
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/posts" element={<Posts/>} />
+              <Route path="/gallery" element={<Gallery/>} />
+              <Route path="/todo" element={<Todo/>} />
+            </Routes>
+            </main>
+          </section>
+          
+         
+        
+     
+      </div>
+      </Router>
+      
     </div>
   );
 }

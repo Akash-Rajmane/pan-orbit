@@ -1,0 +1,12 @@
+.comming-soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text{
+    color: #e2e1e1;
+    font-weight: bold;
+    font-size: 75px;
+}

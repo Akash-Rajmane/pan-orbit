@@ -1,0 +1,46 @@
+.sidebar{
+    /* position: relative;
+    top:35px;
+    left:35px;
+    bottom:35px; */
+    margin: 35px 0px 35px 35px;
+    width: 240px;
+    height: calc(100% - 70px);
+    background-image: linear-gradient(#4848fa, #8342fa);
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.nav-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-text{
+    display: block;
+    border-bottom: 2px solid #9595eb; 
+    border-radius: 2px;
+    padding: 15px 0px;
+    width: 75%;
+}
+
+.nav-text:last-child{
+    border: none;
+}
+
+.nav-text a.active{
+    color: #fff;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: rgb(167, 157, 238);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav-text a span{
+    float: left;
+}
