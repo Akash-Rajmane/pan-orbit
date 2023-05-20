@@ -1,8 +1,4 @@
 .sidebar{
-    /* position: relative;
-    top:35px;
-    left:35px;
-    bottom:35px; */
     margin: 35px 0px 35px 35px;
     width: 240px;
     height: calc(100% - 70px);

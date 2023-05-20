@@ -1,0 +1,89 @@
+.chatbox-container{
+    position: absolute;
+    z-index: 1000;
+    bottom: -120px;
+    right: 35px;
+    float: right;
+    border: 1px solid #4848fa;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.chatbox {
+  background-color: #4848fa;
+  width: 230px;
+  height: 45px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chatbox-title {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.chatbox-text {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.angle-icon {
+  margin-left: 95px;
+}
+
+.chat-content {
+  background-color: #fff;
+  margin-top: 30px;
+  width: 190px;
+  float: right;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  overflow-y: scroll;
+  height: 185px;
+}
+
+
+.chat-content::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+}
+  
+.chat-content::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+  
+.chat-content::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 3.5px;       /* roundness of the scroll thumb */
+}
+
+.chat-content li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.chat-name {
+  font-size: 14px;
+  color: #6e6e6e;
+  margin-top: 5px;
+}
+
+.dot {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}

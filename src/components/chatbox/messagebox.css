@@ -1,0 +1,101 @@
+.msg-container{
+    position: absolute;
+    z-index: 1000;
+    bottom: -120px;
+    right: 295px;
+    float: right;
+    border: 1px solid #4848fa;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+}
+
+.msg-header{
+    background-color: #4848fa;
+    width: 230px;
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.msg-head-context{
+    display: flex;
+    align-items: center;
+}
+
+.msg-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px; 
+}
+
+.msg-name{
+    margin-left: 10px;
+}
+
+.close-icon{
+    transform: scale(1.2);
+    margin-left: 75px;
+}
+
+.msgs{
+    display: block;
+    height: 140px;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.msgs::-webkit-scrollbar {
+    width: 7px;             
+}
+  
+.msgs::-webkit-scrollbar-track {
+    background: transparent;        
+}
+  
+.msgs::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    
+    border-radius: 3.5px;       
+}
+
+.msg{
+    margin:10px;
+    width: 180px;
+    background-color: lightgrey;
+    color: #504e4e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.other-msg{
+    float: right;
+    margin-right: 10px;
+    width: 180px;
+    background-color: lightgrey;
+    color: #504e4e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.msg-container input{
+    width: 222px;
+    height: 20px;
+}
+
+.msg-container input:focus{
+    border: none;
+   outline: 1px solid #4848fa;
+    width: 225px;
+    height: 20px;
+}
+
+.send-icon{
+    position: absolute;
+    right: 5px;
+    transform: scale(0.8);
+    color: #4848fa;
+}

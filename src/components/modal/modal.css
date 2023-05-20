@@ -1,0 +1,79 @@
+.modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:transparent;
+    height: 100%;
+    width: 100%;
+  }
+
+.modal{
+    position: absolute;
+    top: 95px;
+    right: 35px;
+    z-index: 1000;
+    width:280px;
+    height:350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.main-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.main-user-email{
+    color: #bbbaba;
+}
+
+.main-user p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-top: 5px;
+}
+
+.modal-img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.other-users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.modal-users-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.modal-users-name{
+   font-size: 14px;
+   margin-left: 15px;
+}
+
+.hr-line{
+    width:85%;
+}
+
+.sign-out-btn{
+    width:90px;
+    height:34px;
+    border-radius: 17px;
+    background-color: #fa4848;
+    border: none;
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}

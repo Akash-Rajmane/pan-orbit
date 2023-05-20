@@ -1,0 +1,72 @@
+.acc-box{
+    position: absolute;
+    top: calc(50% - 225px);
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    z-index: 15;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.acc-header{
+    height: 90px;
+    background-color: #e6e3e3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc-header-text{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #525050;
+}
+
+.list{
+    height: 330px;
+    margin-right: 5px;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+}
+  
+.list::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+  
+.list::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 3.5px;       /* roundness of the scroll thumb */
+}
+
+.list  li {
+    list-style: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.list-username{
+    font-size: 18px;
+    color: #4e4d4d;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+.profile-pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}

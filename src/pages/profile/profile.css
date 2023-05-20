@@ -1,12 +1,9 @@
 .profile-container{
     display: grid;
     grid-template-columns: 40% 60%;
-    /* background-color: #2196F3; */
     margin: 0px 45px;
-    height: max-content;
+    z-index: 10;
 }
-
-
 
 .item1{
     padding-top: 35px;
@@ -17,12 +14,10 @@
 }
 
 
-
 .user-img{
     width: 165px;
     height: 165px;
     border-radius: 50%;
-    background-color: red;
     display: block;
     margin: 0px auto;
 }
@@ -34,6 +29,7 @@
     font-weight: bold;
     color: #504e4e;
     margin-top: 5px;
+    text-align: center;
 }
 
 .user-details{
@@ -58,7 +54,7 @@
     color: #504e4e;
 }
 
-.line{
+.h-line{
     width: 70%;
     height: 1px;
     margin-left: auto;
@@ -75,6 +71,7 @@
     margin-block-start: 0;
     margin-block-end: 0;
     margin-top: 10px;
+    text-align: center;
 } 
 
 .company-details{
@@ -85,4 +82,73 @@
     column-gap: 10px;
     font-size: 20px;
     margin-top: 10px;
+}
+
+.item2{
+    padding-top: 35px;
+    padding-right: 35px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.v-line{
+    border-left: 1px solid lightgrey;
+    height: 580px;
+}
+
+.address-content{
+    position: absolute;
+    margin-left: 45px;
+}
+
+.address{
+    color: #969494;
+    font-weight: 500;
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.address-details{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+   justify-content: left;
+   margin-left: 20px;
+}
+
+.map{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 200px;
+    margin-right: 45px;
+}
+
+iframe{
+    border-radius: 20px;
+    border: none;
+}
+
+.co-ordinates{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -90px;
+    margin-right: -35px;
+}
+
+.geo-text{
+    font-size: 12px;
+    color: #acaaaa;
+    margin-left: 15px;
+}
+
+.geo-co{
+    font-size: 14px;
+    margin-left: 2px;
+    font-weight: 500;
+    color: #363636;
 }

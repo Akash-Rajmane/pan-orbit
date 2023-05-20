@@ -1,12 +1,12 @@
-import React from 'react';
-import CommingSoon from '../../components/comming-soon/CommingSoon';
+import React from "react";
+import CommingSoon from "../../components/comming-soon/CommingSoon";
 
 const Posts = () => {
   return (
     <>
-      <CommingSoon/>
+      <CommingSoon />
     </>
-  )
-}
+  );
+};
 
 export default Posts;
