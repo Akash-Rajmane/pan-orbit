@@ -4,9 +4,7 @@
 Instructions for the frontend assignment
 ISSUED BY
 Panorbit Services LLP
-REPRESENTATIVE
-career@panorbit.in
-CONFIDENTIAL Copyright @ Panorbit™ Services LLP
+
 What are we looking for?
 With this assignment we try to analyse few key parameters that are important to our
 organisation. Before you start writing the code, please keep the following points in mind.
@@ -22,7 +20,6 @@ fbea81ff4a60-3d13/?fullscreen
 API Endpoints
 1. USERS API endpoint: https://panorbit.in/api/users.json
 List of users along with their details
-CONFIDENTIAL ( ) Copyright 1 @ Panorbit™ Services LLP
 Instructions to follow
 Application must be launched via URL which will display a landing page
 Landing Page
@@ -46,7 +43,7 @@ Display a coming soon page
 Change/Add Profile
 Following details will be displayed when user click on profile account in right top corner
 of the page (See design)
-CONFIDENTIAL ( ) Copyright 2 @ Panorbit™ Services LLP
+
 1. Profile Picture of logged in user
 2. Logged-in member full name and username
 3. List of other users account [along with profile picture] and user name
@@ -57,7 +54,7 @@ Deliverables
 1. Source code, either in zip format or a GitHub link
 2. Instructions to run the code
 3. List of dependencies/requirements to run the code
-CONFIDENTIAL ( ) Copyright 3 @ Panorbit™ Services LLP
+
 
 # Getting Started with Create React App
 
