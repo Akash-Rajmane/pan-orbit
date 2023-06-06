@@ -1,7 +1,6 @@
 ### Hosted Link: https://pan-orbit-task.netlify.app
 
-Frontend
-Assignment
+### Frontend Assignment
 Instructions for the frontend assignment
 ISSUED BY
 Panorbit Services LLP
